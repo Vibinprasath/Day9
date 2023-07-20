@@ -1,0 +1,110 @@
+.wrap{
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .title h2{
+    
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  .block-image{
+    transition: 5s ease;
+    -webkit-transition: 5s ease;
+    position: relative;
+    width: 290px;
+    height: 350px;
+    border-radius: 1px;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 50px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+    
+  }
+  .block-image:before{
+    opacity: .9;
+    transition: 6s ease;
+    -webkit-transition: 6s ease;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transform: translateY(30px) scale(.9);
+    -webkit-transform: translateY(30px) scale(.9);
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    border-radius: 20px;
+    
+  }
+  .block-image:last-child{
+    margin-right: 0;
+    padding-bottom: 100px;
+  }
+  .block-image:hover,
+  .block-image:hover:before{
+    background-position: center bottom;
+    
+  }
+  .image-1{
+    background: url('https://c8.alamy.com/comp/2AHCBR0/volunteering-team-article-page-vector-template-volunteer-training-brochure-magazine-booklet-design-element-with-linear-icons-and-text-boxes-print-2AHCBR0.jpg') no-repeat;
+    width: 1000px;
+    background-size: 100%;
+    background-position: top center;
+   
+   
+  }
+  .image-1:before{
+    background: url('https://c8.alamy.com/comp/2AHCBR0/volunteering-team-article-page-vector-template-volunteer-training-brochure-magazine-booklet-design-element-with-linear-icons-and-text-boxes-print-2AHCBR0.jpg') no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    width: 1000px;
+  }
+  
+  .image-2{
+    background: url('https://www.globaldentalrelief.org/wp-content/uploads/2019/08/Volunteering_for_smiles_6-27-2019.jpg') no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    width: 1000px;
+  }
+  .image-2:before{
+    background: url('https://www.globaldentalrelief.org/wp-content/uploads/2019/08/Volunteering_for_smiles_6-27-2019.jpg') no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    width: 1000px;
+  }
+
+  .image-3{
+    background: url('https://www.iave.org/iavewp/wp-content/uploads/2022/05/VTogether-Magazine-MAy-2022.jpg') no-repeat;
+    width: 1000px;
+    background-size: 100%;
+    background-position: top center;
+   
+   
+  }
+
+  .image-3:before{
+    background: url('https://www.iave.org/iavewp/wp-content/uploads/2022/05/VTogether-Magazine-MAy-2022.jpg') no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    width: 1000px;
+  }
+
+
+  .image-4{
+    background: url('https://www.iave.org/iavewp/wp-content/uploads/2021/05/vtmag_may21.jpg') no-repeat;
+    width: 1000px;
+    background-size: 100%;
+    background-position: top center;
+   
+   
+  }
+
+  .image-4:before{
+    background: url('https://www.iave.org/iavewp/wp-content/uploads/2021/05/vtmag_may21.jpg') no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    width: 1000px;
+  }

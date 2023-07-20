@@ -1,0 +1,102 @@
+body{
+  padding-left: 400px;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url(../image/composition-still-life-friendship-day-elements.jpg);
+  border-radius: 5px;
+  background-attachment: fixed;
+    margin: 0;
+ 
+
+}
+form {
+  --bg-light: #efefef;
+  --bg-dark: #000000;
+  --clr: #000000;
+  --clr-alpha: #00000060;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 1rem;
+  width: 50%;
+  border:5px solid black;
+  border-radius: 15px;
+  border-right: 20px;
+  padding-left: 10px;
+}
+
+.form .input-span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+form input[type="text"],
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="password"] {
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width:80%;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--clr-alpha);
+  outline: 2px solid var(--bg-dark);
+}
+
+form input[type="text"]:focus,
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="password"] {
+  outline: 2px solid var(--clr);
+  padding-right: 10px;
+}
+
+.label {
+  align-self: flex-start;
+  color: var(--clr);
+  font-weight: 600;
+}
+
+form .submit {
+  padding: 1rem 0.75rem;
+  width: 80%;
+  align-items: center;
+  gap: 5rem;
+  border-radius: 3rem;
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms;
+  font-weight: 600;
+  font-size: 1rem;
+  
+}
+
+form .submit:hover {
+  background-color: var(--clr);
+  color: var(--bg-dark);
+}
+
+.span {
+  text-decoration: none;
+  color: var(--bg-dark);
+}
+
+.span a {
+  color: var(--clr);
+}
+h1{
+  color:#000000;
+  text-align: center; 
+  border-radius: 2px;
+   
+}
+
+
